@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%
+}
+#bg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    }
+
+#left{
+    width: 10%;
+    height: 100%;
+    background-color:white;
+}
+#left h1{
+    font-size: 40px;
+    padding: 40px 38px;
+    letter-spacing: -6px;
+}
+#left a{
+    margin-left: 32%;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    color: grey;
+    font-weight: 500;
+    margin-top: 15px;
+}
+#center{
+    width: 35%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#right{
+    
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    padding:40px;
+}
+#right #nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#right #nav i{
+    margin-left: 30px;
+    color: rgb(196, 192, 192);
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: rgba(82, 81, 81, 0.842);
+}
+#line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 90px;   
+}
+#line1 h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 15px;
+    letter-spacing: 10px;
+}
+#line2 h1{
+    font-size: 100px;
+    font-weight: 790;
+    text-align: center;
+    margin-top: -30px;
+    letter-spacing: 25px;
+}
+
+#line3 p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: -10px;
+    align-items: center;
+    
+}
+
+#line3 button{
+    margin-top: 20px;
+    width: 320px;
+    height: 30px;
+    border: 1px solid black ;
+    font-size: 13px;
+    font-family: "monteserrat";
+    border-color: rgb(43, 41, 41);
+    border-radius: 2px;
+    margin-left: 220px;
+    text-align: left;
+}
+#search{
+    width: 100%;
+    background-color: red;
+    margin-top: 70px;
+}
+#search input{
+    margin-left:100px;
+    width: 90%;
+    padding:12px 30px ;
+}
+#search button{
+    width: 10%;
+    height: 50px;
+
+}
+#rightcenter {
+    background-color:rgb(180, 169, 169);
+    width: 40%;
+    height: 70%;
+    left: 72%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+#line3 #search{
+    display: flex;
+
+}
